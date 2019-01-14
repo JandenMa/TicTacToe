@@ -30,6 +30,8 @@ export default class Setting extends Component {
                         })}
                     </select>
                 </div>
+                <p>先完成{this.state.curr_order}个连成一条线者胜利</p>
+                <p>The first one to make {this.state.curr_order} same icons in a line first is winner</p>
                 <div className="setting-control">
                     <button onClick={this.start}>重新开始(Restart)</button>
                 </div>

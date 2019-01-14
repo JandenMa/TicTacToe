@@ -11,14 +11,14 @@ export default class Square extends Component {
             })
         })
     }
-    
+
     state = {
         val: null
     }
 
     set_val = (e) => {
-        if (e.target.value) return;
-        this.props.onClick();
+        if (e.target.value || !this.props.status) return;
+        this.props.onClick(this.props.sq_id);
         this.setState({
             val: this.props.value
         })
