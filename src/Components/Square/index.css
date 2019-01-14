@@ -1,0 +1,22 @@
+.square-box{
+    text-align: center;
+    margin: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-select: none;
+}
+
+.square-box button{
+    font-size: 2rem;
+    margin: 0;
+    width: 98%;
+    height: 98%;
+    background-color: #f2f2f2;
+    border: solid 1px #ccc;
+    outline: none;
+}
+
+.square-box button:active{
+    background-color: #f8f8f8;
+}

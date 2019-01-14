@@ -1,0 +1,25 @@
+.board-box {
+    text-align: center;
+}
+
+.board-box .board-info{
+    padding: 0.5rem 0;
+}
+
+.board-box .board-square{
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    -ms-flex-flow: row;
+    -ms-flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    -ms-flex-align: center;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    padding: 1px;
+    margin: 0 auto;
+    width: 280px;
+    height:280px;
+    border: solid 1px #ccc;
+}

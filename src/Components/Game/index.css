@@ -1,0 +1,14 @@
+.game-box{
+    font-weight: normal;
+}
+
+.game-box .game-title{
+    text-align: center;
+    background-color: #ccc;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
+.game-box .game-setting{
+    margin: 0.8rem 0.5rem;
+}
